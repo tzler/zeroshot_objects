@@ -4,7 +4,9 @@ Zero-shot object discrimination dataset. All relevant stimuli for model evaluati
 
 Each trial contains one object presented from three different viewpoints (the 'typical') and another object, i.e., the 'oddity.' The task is to identify the oddity in each trial. For example: 
 
-<img src="example_images/trial_high_ambiguity_familiar.png" alt="drawing" width="200"/>
+<img src="example_images/trial_high_ambiguity_familiar.png" alt="drawing" width="500"/>
+
+In the example above, the oddity (i.e., the correct answer) is bottom left. 
 
 There are four conditions ('familiar_high' 'familiar_low' 'novel_high' and 'novel_low') and there were ~35 trials in each condition. Some background about the naming for each image, which is also context for the experiment and the relative difficult of each trial:
 
@@ -58,7 +60,11 @@ for i_trial in trial_images:
 
 ```
 
-Below we visualize the relationship between human and model performance on these stimuli. Performance of a standard computer vision model (e.g., resnet50 trained on imagenet) is plotted along the x axis, for each of the four conditions in this dataset ('high-ambiguity novel' objects, etc.). Human performance on these same conditions is plotted along the y axis, but with different experimental conditions in each plot.  
+## Human-model comparison 
+
+Here we briefly describe the relationship between human and model performance on these stimuli. More details about these data/methods can be found in [Bonnen et al. 2023](https://www.biorxiv.org/content/10.1101/2023.09.07.556737v1) 
+
+In all plots below, the performance of a standard computer vision model (e.g., resnet50 trained on imagenet) is plotted along the x axis. Each point correspondends to the average performance of this model on one of the four conditions in this dataset ('high-ambiguity novel' objects, etc.). Human performance on these same conditions is plotted along the y axis, but with different experimental conditions in each plot.  
 
 <b>Left</b>, we compare model and human performance, with people who have unlimited time (purple) or restricted time (green) to view these stimuli. Humans perform well on all of these conditions, when given enough time to view these stimuli (purple), significantly outperforming computer vision models on the 'high ambiguity' conditions. When people can only view these images briefly (e.g., less than 200ms), their performance is significantly worse (green) on these 'high ambiguity' conditions. Intrestingly, time-restricted human performance resembles the accuracy of standard computer vision models (i.e., on-diagnoal performance).
 
