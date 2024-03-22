@@ -4,7 +4,7 @@ Zero-shot object discrimination dataset. All relevant stimuli for model evaluati
 
 Each trial contains one object presented from three different viewpoints (the 'typical') and another object, i.e., the 'oddity.' The task is to identify the oddity in each trial. For example: 
 
-![Example 'high ambiguity familiar' trial](example_images/exampletrial_high_ambiguity_familiar.png)
+![Example 'high ambiguity familiar' trial](example_images/trial_high_ambiguity_familiar.png)
 
 There are four conditions ('familiar_high' 'familiar_low' 'novel_high' and 'novel_low') and there were ~35 trials in each condition. Some background about the naming for each image, which is also context for the experiment and the relative difficult of each trial:
 
@@ -15,7 +15,7 @@ There are four conditions ('familiar_high' 'familiar_low' 'novel_high' and 'nove
 
 Here are some example stimuli from each condition: 
 
-![Examples from each condition](example_images/conditions_example.png)
+![Examples from each condition](example_images/conditions.png)
 
 If you want to order the images in a way that's organized to reflect the experiment
 
