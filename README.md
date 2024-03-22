@@ -1,6 +1,6 @@
 # zeroshot_objects
 
-Zero-shot object discrimination dataset. All relevant stimuli for model evaluation can be download from [this folder](http://example.com](https://drive.google.com/drive/folders/1a-t2pockvcxYKfLaBGkR5kuNRsMOads5?usp=sharing). Images first used by [Barense et al. 2007](https://www.sciencedirect.com/science/article/pii/S0028393207002163). Initial results illustrating model failure by [Bonnen et al. 2021](https://www.cell.com/neuron/fulltext/S0896-6273(21)00459-1). Below is some information for how to organize images in this dataset.
+Zero-shot object discrimination dataset. All relevant stimuli for model evaluation can be download from [this folder](https://drive.google.com/drive/folders/1a-t2pockvcxYKfLaBGkR5kuNRsMOads5?usp=sharing). Images first used by [Barense et al. 2007](https://www.sciencedirect.com/science/article/pii/S0028393207002163). Initial results illustrating model failure by [Bonnen et al. 2021](https://www.cell.com/neuron/fulltext/S0896-6273(21)00459-1). Below is some information for how to organize images in this dataset.
 
 Each trial contains one object presented from three different viewpoints (the 'typical') and another object, i.e., the 'oddity.' The task is to identify the oddity in each trial. For example: 
 
