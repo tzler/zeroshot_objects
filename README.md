@@ -1,14 +1,17 @@
 # zeroshot_objects
 
-Zero-shot object discrimination dataset. All relevant stimuli for model evaluation can be download from [this folder](https://drive.google.com/drive/folders/1a-t2pockvcxYKfLaBGkR5kuNRsMOads5?usp=sharing). Images first used by [Barense et al. 2007](https://www.sciencedirect.com/science/article/pii/S0028393207002163). Initial results illustrating model failure by [Bonnen et al. 2021](https://www.cell.com/neuron/fulltext/S0896-6273(21)00459-1). Below is some information for how to organize images in this dataset.
+This repo contains information related to a zero-shot object discrimination dataset, originally used for neuroscience experiments. All relevant stimuli for model evaluation can be download from [this folder](https://drive.google.com/drive/folders/1a-t2pockvcxYKfLaBGkR5kuNRsMOads5?usp=sharing). 
+
+
+Initial modeling results demonstrate that humans dramatically outperform computer vision models [Bonnen et al. 2021](https://www.cell.com/neuron/fulltext/S0896-6273(21)00459-1). Below is some information for how to organize images in this dataset.
 
 Each trial contains one object presented from three different viewpoints (the 'typical') and another object, i.e., the 'oddity.' The task is to identify the oddity in each trial. For example: 
 
-<img src="example_images/trial_high_ambiguity_familiar.png" alt="drawing" width="500"/>
+<img src="example_images/trial_high_ambiguity_familiar.png" alt="drawing" width="400"/>
 
 In the example above, the oddity (i.e., the correct answer) is bottom left. 
 
-There are four conditions ('familiar_high' 'familiar_low' 'novel_high' and 'novel_low') and there were ~35 trials in each condition. Some background about the naming for each image, which is also context for the experiment and the relative difficult of each trial:
+There are four conditions ('familiar_high' 'familiar_low' 'novel_high' and 'novel_low') and there were ~35 trials in each condition. If you'd like more information on the rational for this design, you can refer to the neuroscientists who designed this dataset, [Barense et al. 2007](https://www.sciencedirect.com/science/article/pii/S0028393207002163). Here we provide some background about the naming for each image, which is also context for the experiment and the relative difficult of each trial:
 
 - 'low' trials: humans perform well, even without much time, and models perform well. 
 - 'high' trials: humans perform well, but only with enough time, and models perform poorly
